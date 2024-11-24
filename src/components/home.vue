@@ -133,6 +133,44 @@ export default {
 
 
 <style scoped>
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  background-color: rgba(0, 0, 0, 0.6);;
+  border-bottom: 2px solid #ddd;
+  font-family: agrandir;
+  width: 100%;
+}
+
+.navbar nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.navbar nav ul li {
+  margin-right: 20px;
+  transition: 0.3s;
+}
+
+.navbar nav ul li:hover {
+  opacity: .3;
+}
+
+.btn {
+  background-color: none;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
 .container {
   width: 100%;
   height: 100vh;
@@ -169,16 +207,6 @@ export default {
   align-items: center;
   gap: 20px;
   margin: 20px 0;
-}
-
-.btn {
-  padding: 10px 20px;
-  width: 140px;
-  height: 50px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  text-align: center;
 }
 
 .add-nominee {
