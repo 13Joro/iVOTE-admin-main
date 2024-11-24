@@ -4,6 +4,7 @@ import App from './App.vue';
 import Home from './components/home.vue'; // Home page component
 import Login from './components/Login.vue'; // Login page component
 
+
 // Define routes
 const routes = [
   { path: '/', component: Login },
